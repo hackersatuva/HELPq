@@ -82,7 +82,8 @@ $github-gray: #e4e4e4;
   // background-size: cover;
 
   // Background image that repeats
-  background-color: #002E64;
+  // background-color: #002E64;
+  background-image: linear-gradient(to top right, #00284C, #003E9B);
   // background: url(/assets/images/geometry2.png) repeat;
 }
 
@@ -100,7 +101,8 @@ $github-gray: #e4e4e4;
   // background: $brand-primary;
 
   // Repeated Background:
-  background-color: #002E64;
+  // background-color: #002E64;
+  background-image: linear-gradient(to top right, #00284C, #003E9B);
   // background: url(/assets/images/geometry2.png) repeat;
 }
 
