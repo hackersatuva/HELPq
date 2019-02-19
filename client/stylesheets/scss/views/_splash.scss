@@ -22,7 +22,11 @@
     .header {
       @include logo-font();
       font-size: 4em;
+<<<<<<< HEAD
       letter-spacing: .2em;
+=======
+      // letter-spacing: .2em;
+>>>>>>> branding changes
       line-height: 1.33;
     }
 
