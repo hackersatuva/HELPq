@@ -1,5 +1,10 @@
 <template name="footer">
   <footer>
-    Built with <i class="ui heart icon"></i> by the <a href="https://code.hackmit.org/" target="_blank">HackMIT Team</a> and the <a href="https://hoohacks.io/" target="_blank">HooHacks Team</a>
+    Built with <i class="ui heart icon"></i> by the <a href="https://code.hackmit.org/" target="_blank">HackMIT Team</a> and the <a href="https://hoohacks.io/" target="_blank">HooHacks Team</a> |
+    {{#if userIs 'mentor'}}
+        <a href="assets/Mentor_Edition.pdf" target="_blank">Help</a>
+    {{else}}
+        <a href="assets/Hacker_Edition.pdf" target="_blank">Help</a>
+    {{/if}}
   </footer>
 </template>
